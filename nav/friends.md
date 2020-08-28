@@ -45,7 +45,7 @@ header-img: "img/nav/nav-about.jpg"
 他们是活跃于Android技术社区,致力于推动技术前进的有为青年。
 
 **2.1 技术博客**
- 
+
 |---|---|
 |[androiddevtools.cn](https://www.androiddevtools.cn)|脉脉不嘚語，收集Android开发相关资料大全|
 |[droidyue.com](http://droidyue.com/)|小黑屋，分享Android应用开发技术|
@@ -63,4 +63,4 @@ header-img: "img/nav/nav-about.jpg"
 |[androidblog.cn](http://androidblog.cn/)|Jomeslu维护的Android博客周刊|
 
 
-最后，可以看看博主写的《[如何自学Android](http://gityuan.com/2016/04/24/how-to-study-android/)》。
+最后，可以看看博主[主页](https://liucoder.com)
