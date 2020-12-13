@@ -19,6 +19,23 @@ layout: default
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 sidebar-container">
+				
+				<!--IP-Info-->
+                {% if site.weather %}
+                <section>
+                    <hr class="visible-md visible-lg">
+                    <h5>IP-Info</h5>
+                    <div class="weather">
+                        <!--<img src="https://datealive.top/IP-master/index.php"/>-->
+                        <div>
+                            <p>设备型号：<span id="system"></span></p>
+                            <p>浏 览 器：<span id="browser"></span></p>
+                            <p>ＩＰ地址：<span id="ip"></span></p>
+                            <!--<p>北京时间：<span id="time"></span></p>-->
+                        </div>
+                    </div>
+                </section>
+                {% endif %}
 
                 <!-- Featured Tags -->
                 {% include featured-tags.html %}
