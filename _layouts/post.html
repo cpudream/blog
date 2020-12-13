@@ -26,9 +26,6 @@ layout: default
                 {% endif %}
 
 				{{ content }}
-                <hr>
-                {% include article_bottom.html %}
-                <hr>
 
                 <hr style="visibility: hidden;">
                 <ul class="pager">
@@ -67,7 +64,7 @@ layout: default
             </div>  
 
     <!-- Side Catalog Container -->
-        {% if page.catalog %}
+        {% unless page.no-catalog %}
             <div class="
                 col-lg-2 col-lg-offset-0
                 visible-lg-block
@@ -81,7 +78,7 @@ layout: default
                     <ul class="catalog-body"></ul>
                 </div>
             </div>
-        {% endif %}
+        {% endunless %}
 
     <!-- Sidebar Container -->
             <div class="
