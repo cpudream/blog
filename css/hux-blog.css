@@ -21,6 +21,20 @@
   color: #ccc !important;
   text-decoration: none;
 }
+.sidebar-container .weather img {
+  width: 95%;
+  display: block;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.sidebar-container .weather p
+.sidebar-container .weather span {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #1E90FF;
+  font-size: 13px
+}
+
 .sidebar-container a {
   color: #bfbfbf !important;
 }
