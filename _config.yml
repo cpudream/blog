@@ -6,7 +6,7 @@ email: liuyufengch@gmail.com
 description: 
 keyword: 
 url: "https://liucoder.com"
-baseurl: "/blog"                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -81,7 +81,7 @@ ga_domain:
 sidebar: true                           # whether or not using Sidebar.
 weather: true
 sidebar-about-description: 
-sidebar-avatar: /blog/img/avatar.jpg   # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.jpg   # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -103,17 +103,17 @@ page-mathjax: false
 hotpages: [
     {
         title: "Android 高级混淆技巧总结    ",
-        href:  "https://liucoder.com/blog/2019/05/08/proguard/"
+        href:  "https://liucoder.com/2019/05/08/proguard/"
     }, {
         title: "Android Bitmap加载与压缩优化",
-        href:  "https://liucoder.com/blog/2018/04/01/bitmap-optimalize/"
+        href:  "https://liucoder.com/2018/04/01/bitmap-optimalize/"
 
     },{
         title: "NDK快速入门",
-        href:  "https://liucoder.com/blog/2017/06/27/ndk-guide/"
+        href:  "https://liucoder.com/2017/06/27/ndk-guide/"
     },{
       title: "Windows下安装Jekyll",
-      href:  "https://liucoder.com/blog/2015/01/02/build-jekyll/"
+      href:  "https://liucoder.com/2015/01/02/build-jekyll/"
     }
 ]
 
