@@ -34,8 +34,8 @@ description: "技术交流区"
 <script>
     new Valine({
         el: '#vcomments',
-        app_id: 'fe97Ym6pMFX5GRY6LQXRO3Uy-gzGzoHsz',  
-        app_key: 'sdul8c32zhTdpMUTbMzs4o87',
+        app_id: '5dtOH5m5MmupiehBzgXcVcTt-gzGzoHsz',  
+        app_key: 'rNWjbb4WBcjPfdiALUNRk3fp',
         avatar: 'robohash',
         placeholder:'欢迎留言交流',
         pageSize: 20,
