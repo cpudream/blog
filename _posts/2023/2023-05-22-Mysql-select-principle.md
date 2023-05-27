@@ -32,7 +32,7 @@ Server 层包括连接器、查询缓存、分析器、优化器、执行器等�
 **不建议使用**， 失效很频繁，只要表更新所有缓存都被清空。对于更新压力大的数据库，命中率很低，可以按需使用(配置表等)，可以将参数 query_cache_type 设置成 DEMAND，这样对于默认的 SQL 语句都不使用查询缓存。而对于你确定要使用查询缓存的语句，可以用 SQL_CACHE 显式指定，像下面这个语句一样：
 
 ```sql
-select SQL_CACHE * from T where ID=10；
+select SQL_CACHE * from T where ID=10;
 ```
 **【注意】**：mysql 8.0 删除查询缓存功能
 
