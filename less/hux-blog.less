@@ -4,6 +4,7 @@
 @import "side-catalog.less";
 @import "snackbar.less";
 @import "highlight.less";
+@import "search.less";
 // Global Components
 
 body {
@@ -512,7 +513,7 @@ samp {
     }
   }
   background: no-repeat center center;
-  background-color: @gray;
+  background-color: @brand-gray;
   background-attachment: scroll;
   .background-cover;
   // NOTE: Background images are set within the HTML using inline CSS!
@@ -643,7 +644,7 @@ samp {
   }
   > .post-meta {
     .serif;
-    color: @gray;
+    color: @brand-gray;
     font-size: 16px;
     font-style: italic;
     margin-top: 0;
@@ -678,7 +679,7 @@ samp {
 .post-content-preview {
   font-size: 13px;
   font-style: italic;
-  color: #a3a3a3;
+  color:  @brand-gray;
   &:hover {
     color: @brand-primary;
   }
@@ -858,7 +859,7 @@ form .row:first-child .floating-label-form-group {
     > a:hover,
     > a:focus,
     > span {
-      color: @gray;
+      color: @brand-gray;
       background-color: @gray-dark;
       cursor: not-allowed;
     }
@@ -1187,4 +1188,7 @@ img::-moz-selection {
 .MathJax_SVG_Display{
   overflow: auto;
   -webkit-overflow-scrolling: touch;
+}
+.no-scroll {
+  overflow-y: hidden;
 }
