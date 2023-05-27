@@ -1,6 +1,6 @@
 # Site settings
-title: Liucoder Zone
-SEOTitle: 刘玉峰的博客 | Liucoder Blog
+title: 北漂刘先生
+SEOTitle: 北漂刘先生
 header-img: 
 email: liuyufengch@gmail.com
 description: 
@@ -64,7 +64,7 @@ kramdown:
 # Netease settings
 netease_comment: false
 
-valine_comment.enable: true
+valine_comment.enable: false
 
 
 # Analytics settings
