@@ -5,7 +5,7 @@ header-img: img/background/Xacebook.jpg
 email: liuyufengch@gmail.com
 description: 
 keyword: "CPUdream, liucoder, 北漂刘先生"
-url: "https://liucoder.com"
+url: "https://cpudream.github.io"
 baseurl: "/"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
